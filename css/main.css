@@ -53,6 +53,7 @@ h1{
 .two-box{
     margin-right: 5%;
     margin-left: 0.5%;
+    padding: 2%;
 }
 
 #section-one .one-box h2{
@@ -70,10 +71,39 @@ h1{
     background: rgba(114, 111, 112, 0.2);
     padding: 0.5px;
     border: 0;
-    margin: 3% 0 10% 0;
+    margin: 3% 0 50px 0;
 }
 
 .letter-blue{
     color: rgb(28, 28, 177);
     font-weight: bold;
+}
+
+/* Agregando estilos al form */
+
+#form{
+    color: rgba(114, 111, 112, 0.4);
+    font-size: 16px;
+    height: 100px;
+    width: 100%;
+    border: 0;
+}
+
+#btn{
+    padding: 10px;
+    background: #6ad2f3;
+    color: white;
+    border-color: #6ad2f3;
+    font-style: 20px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 3px;
+}
+
+#accountant{
+    float: right;
+}
+
+#btn, #accountant{
+    margin-top: 50px;
 }
